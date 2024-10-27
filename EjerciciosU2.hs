@@ -432,6 +432,7 @@ estudiantesOrdenados = ordenar estudiantes
 estudianteMenor = head estudiantesOrdenados
 estudianteMayor = last estudiantesOrdenados
 -- Obtener el promedio de edades.
+promedioEdades = fromIntegral (sum (map edad estudiantes)) / fromIntegral (length estudiantes)
 
 -------------------------------Árboles------------------------------------------------------------------------
 --Crea un nuevo tipo de dato árbol
